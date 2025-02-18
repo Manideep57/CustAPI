@@ -8,9 +8,9 @@ namespace BussinessCust
         public List<CustomerModel> GetCustomerByID(int iCustomerId)
         {
             CustomerDB obj = new CustomerDB();
-            List<CustomerModel> lstCustmodels = new List<CustomerModel>();  
-            lstCustmodels=obj.GetCustomerByID(iCustomerId);
-            return lstCustmodels;
+            List<CustomerModel> lstCustmodel = new List<CustomerModel>();  
+            lstCustmodel=obj.GetCustomerByID(iCustomerId);
+            return lstCustmodel;
 
 
         }
